@@ -1,0 +1,92 @@
+body{
+    background: pink;
+}
+.fulla{
+    height: 100px;
+    width: 100px;
+    border-radius: 100% 0 100% 0;
+    position: absolute;
+    top:50px;
+    left:150px;
+    transform-origin: 0px 100px;
+    background-image: linear-gradient(rgb(231, 192, 253), rgb(255, 255, 255));
+}
+.flor{
+    width: 300px;
+    height: 300px;
+    position:relative;
+    float:left;
+}
+.f1{
+    transform: rotate(0deg);
+}
+.f2{
+    transform: rotate(60deg);
+}
+.f3{
+    transform: rotate(120deg);
+}
+.f4{
+    transform: rotate(180deg);
+}
+.f5{
+    transform: rotate(240deg);
+}
+.f6{
+    transform: rotate(300deg);
+}
+.cor{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background: ;
+    position: absolute;
+    top:125px;
+    left:125px;
+    background-image: radial-gradient(rgb(251, 212, 84), rgb(245, 241, 192));
+}
+@keyframes rotacio{
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.tronc{
+ height: 200px;
+ width: 200px;
+ position: absolute;
+ top: 180px;
+ left: 150px;
+}
+.tija{
+    height: 300px;
+    width: 10px;
+    border-radius: 0 0 50% 50%;
+    background: palegreen;
+    position: absolute;
+}
+.hoja{
+    height: 80px;
+    width: 80px;
+    border-radius: 100% 0 100% 0;
+    background: palegreen;
+    position: absolute;
+    margin:110px 10px 10px 10px;
+}
+.hoja2{
+    height: 80px;
+    width: 80px;
+    border-radius: 0 100% 0 100%;
+    background: palegreen;
+    position: absolute;
+    margin:110px 10px 10px -80px;
+}
+.conjunt{
+    height: 470px;
+    width: 300px;
+}
+ .conjunt:hover .flor{
+    animation: 0.9s rotacio linear infinite;
+ }

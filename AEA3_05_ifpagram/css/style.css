@@ -1,0 +1,302 @@
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenidor{
+    width: 1716px;
+    margin: auto;
+}
+.nav{
+    height: 166px;
+}
+.friends{
+    height: 180px;
+    width: 1300px;
+    margin: auto;
+}
+.pics{
+    height: 1860px;
+}
+.logo{
+    height: 54px;
+    width: 219px;
+    float: left;
+    background-image: url(../img/logo.jpg);
+    margin: 50px 0 0 0;
+}
+
+.menu{
+    height: 54px;
+    width: 304px;
+    float: left;
+    margin: 50px 0 0 487px;
+}
+.menu ul li{
+    width: 40px;
+    height: 40px;
+    margin: 0 9px;
+    float:left;
+    display: block;
+    background-image: url(../img/menu.jpg);
+}
+.menu ul li:hover{
+    opacity: 0.6;
+}
+.inici{
+    background-position: -8px 0;
+}
+.menu ul{
+    margin: 0;
+}
+.cerca{
+    background-position: -92px 0;
+}
+.directes{
+        background-position: -176px 0;
+}
+.favorits{
+        background-position: -259px 0;
+}
+.perfil{
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+    float: left;
+    opacity: 0.6;
+}
+.perfil:hover{
+    opacity:1;   
+}
+.nom{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.afegir{
+    width: 20px;
+    height: 20px;
+    background: lime;
+    border-radius: 50%;
+    border: 5px solid white;
+    text-align: center;
+    position:relative;
+    left: 60px;
+    top: -68px;
+    color: white; 
+    line-height: 20px;
+}
+.foto{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil.jpg);
+    border: white 3px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.nana{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil8.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.vane{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil6.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.genis{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil4.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.iris{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil3.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.miki{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.judit{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil5.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.anna{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil9.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.jana{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil10.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.alba{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil11.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.tolga{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../img/perfil12.png);
+    border: white 5px solid;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+.post{
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+
+}
+.imatge{
+    background-image: url(../img/ifpagram-sectores_16.jpg);
+    width: 536px;
+    height: 536px;
+
+}
+.info{
+    width: 268px;
+    height: 84px;
+    float:left;
+}
+.autor{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+    background-image: url(../img/miperfil.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 2px 2px 4px greenyellow;   
+}
+.usuari{
+    width: 198px ;
+    height: 25px;
+    margin: 10px 0 0 0;
+    float: left;
+}
+.quan{
+    width:198px ;
+    height: 25px;
+    margin:0;
+    float: left;
+    color: grey;
+    font-size: 12px;
+}
+.reaccions{
+    width: 268px;
+    height: 84px;
+    float:left;
+}
+.likes{
+    width:100px ;
+    height: 25px;
+    margin: 10px 0 0 0;
+    float: left;
+    color: palevioletred;
+    font-size: 15px;
+    float: left;
+}
+.cors{
+    background-image: url(../img/cor.png);
+    height: 25px;
+    width: 25px;
+    margin: 7px 0 0 0;
+    background-size: cover;
+    float: left;
+}
+.mes{
+    width:50px ;
+    height: 25px;
+    color: darkgreen;
+    font-size: 20px;
+    float: left;
+    margin: 3px 0 0 0;
+    clear: both;
+}
+.i1{
+        background-image: url(../img/ifpagram-sectores_16.jpg);
+}
+.i2{
+        background-image: url(../img/ifpagram-sectores_18.jpg);
+}
+.i3{
+        background-image: url(../img/ifpagram-sectores_20.jpg);
+}
+.i4{
+        background-image: url(../img/ifpagram-sectores_25.jpg);
+}
+.i5{
+        background-image: url(../img/ifpagram-sectores_26.jpg);
+}
+.i6{
+        background-image: url(../img/ifpagram-sectores_27.jpg);
+}
+.i7{
+        background-image: url(../img/ifpagram-sectores_35.jpg);
+}
+.i8{
+        background-image: url(../img/ifpagram-sectores_36.jpg);
+}
+.i9{
+        background-image: url(../img/ifpagram-sectores_37.jpg);
+}
+input[type=checkbox]{
+  visibility:hidden;
+}
+.cor{
+  width:1rem;
+  margin-top: 13px;
+  height:1rem;
+  position:relative;
+    background-image: url(https://www.svgrepo.com/show/86601/favourite-heart.svg);
+    background-size:1rem 1rem;
+    float: left;
+}
+.cor label{
+  display:block;
+  width:1rem;
+  height:1rem;
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/A_perfect_SVG_heart.svg/684px-A_perfect_SVG_heart.svg.png?20180121090836);
+    background-size:1rem 1rem;
+}
+.cor input[type=checkbox]:checked+label{
+  opacity:1;
+}
+ 

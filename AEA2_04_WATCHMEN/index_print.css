@@ -1,0 +1,56 @@
+div{
+    width: 57mm;
+    height: 90mm;
+    background: pink; 
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#v1{
+    background-image: url(img/Watch1.png);
+    left: 18mm;
+    top: 8mm;
+}
+#v2{
+    background-image: url(img/Watch2.png);
+    left: 78mm;
+    top: 8mm;
+}
+#v3{
+    background-image: url(img/Watch3.png);
+    left: 137mm;
+    top: 8mm;
+}
+#v4{
+    background-image: url(img/Watch4.png);
+    left: 18mm;
+    top: 102mm;
+}
+#v5{
+    background-image: url(img/Watch5.png);
+    left: 78mm;
+    top: 102mm;
+}
+#v6{
+    background-image: url(img/Watch6.png);
+    left: 137mm;
+    top: 102mm;
+}
+#v7{
+    background-image: url(img/Watch7.png);
+    left: 18mm;
+    top: 196mm;
+}
+#v8{
+    background-image: url(img/Watch8.png);
+    left: 78mm;
+    top: 196mm;
+}
+#v9{
+    background-image: url(img/Watch9.png);
+    left: 137mm;
+    top: 196mm;
+    background-color: aquamarine;
+}
+
+

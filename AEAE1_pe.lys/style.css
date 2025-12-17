@@ -1,0 +1,235 @@
+body{
+    font-family: helvetica;
+    background: #222;
+    color: #fff;
+}
+
+.titol{
+    font-size: 14px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 5px;
+    float: left;
+    margin-top: 13px;
+}
+.social{
+    float: left;
+    margin-top: 0;
+    margin-left: 500px;
+
+}
+.barra{
+    width: 1900px;
+    height: 50px;
+    background: black;
+}
+.logo{
+    background-image: url(img/logo.png);
+    background-size: 100%;
+    height: 40px;
+    width: 50px;
+    margin: 5px 20px 5px 20px;
+    float: left;
+}
+.menuu{
+}
+
+.peli1{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/1982Koyaanisqatsi.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.nom{
+    font-size: 14px;
+    margin-top: 0;
+}
+.any{
+ float: left;
+ font-size: 11px;
+ margin-top: 10px;
+}
+.etiqueta{
+    font-size: 11px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.peli{
+    height: 270px;
+    width: 160px;
+    float: left;
+    margin: 20px;
+}
+.peli2{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2004YTuQueSabes.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli3{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2005Earthlings.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli4{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2007Helvetica.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.contenidor2{
+    -webkit-filter: grayscale(100%);
+    float: left;
+
+}
+.peli5{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2007Sicko.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli6{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2008Zeitgeist2.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli7{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2009ArtAndCopy.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli8{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2009Home.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli9{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2009RipARemixManifesto.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli10{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2010ComprarTirarComprar.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli11{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2010InsideJob.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli12{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2011LaDoctrinaDeShock.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.titol2{
+    font-size: 14px;
+    height: 50px;
+    float: left;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.contenidor{
+}
+.peli13{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2012SearchingForSugarMan.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli14{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2012TheActOfKilling.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.peli15{
+    width: 175px;
+    height: 100%;
+    background-image: url(img/2013ElEspirituDel45.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.pelired{
+    width: 175px;
+    height: 240px;
+    background-image: url(img/XXXXpeli.jpg);
+    border-radius: 5px;
+}
+.peligrey{
+    width: 175px;
+    height: 240px;
+    background: grey;
+    border-radius: 5px;
+}
+.peligroc{
+    width: 175px;
+    height: 240px;
+    background-image: url(img/XXXXserie.jpg);
+    border-radius: 5px;
+}
+.peliclar{
+    width: 175px;
+    height: 240px;
+    background-image: url(img/quasinegre.png);
+    border-radius: 5px;
+}
+.titol3{
+    font-size: 14px;
+    height: 50px;
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+.peli:hover{
+    opacity:50%;
+}
+a:hover{
+    color: #fff;
+}
+a{
+    color:#ccc;
+}
