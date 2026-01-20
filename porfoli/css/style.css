@@ -108,6 +108,9 @@ li a:visited{
 li a:visited:hover{
     color:white;
 }
+    .home-content p{
+    font-size: 2rem;
+   } 
 
 /*Aqui van propietats responsives*/
 @media(max-width:995px){/*Aqui va la versio movil*/
@@ -123,6 +126,9 @@ li a:visited:hover{
         background-color: pink;
         border-top: 0.1rem solid hotpink;
     }
+          .home-content p{
+    font-size: 2rem;
+   } 
     nav.active{
        display:block; 
     }
@@ -269,6 +275,9 @@ span{
 .home{
     gap:4rem;
     }
+    .home-content p{
+    font-size: 2rem;
+   } 
 }
 
 
@@ -288,4 +297,7 @@ span{
     margin-top: -11rem;
     margin-left: -15rem;
    }
+      .home-content p{
+    font-size: 2rem;
+   } 
 }
