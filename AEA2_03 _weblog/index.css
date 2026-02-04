@@ -53,3 +53,87 @@ p{
 a{
     color: white;
 }
+/*menu burger*/
+#alternador{
+  width:5rem;
+  height:5rem;
+  position:absolute;
+  top:.5rem;
+  left:.5rem;
+  border-radius:.5rem;
+}
+#alternador label{
+  width:5rem;
+  height:4rem;
+  position:absolute;
+  top:0;
+  left:0;
+  border-radius:.5rem;
+  cursor:pointer;
+  padding-top:1rem;
+  transition: all .5s ease;
+  opacity:1;
+}
+#alternador b{
+  display:block;
+  width:3rem;
+  height:.5rem;
+  background:maroon;
+  margin-bottom:.5rem;
+  margin-left:1rem;
+  border-radius:1rem;
+}
+input[type="checkbox"]{
+  visibility:hidden;
+}
+#alternador ul{
+  position:absolute;
+  margin:0;
+  margin-bottom:2rem;
+  padding:0;
+  left:0;
+  list-style-type:none;
+  margin-top:3rem;
+  width:10rem;
+  border-radius:.5rem;
+  
+}
+#alternador *{
+  font-family:Arial, Sans-serfi;
+}
+#alternador a{
+  text-decoration: none;
+  color:white;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+#alternador li{
+  border:solid white 2px;
+  border-radius:25rem;
+  line-height:3rem;
+  padding:0;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  background:maroon;
+  float:none;
+}
+#alternador li:hover{
+  background:pink;
+  box-shadow: inset 5px 5px 5px hotpink;
+}
+#alternador .desplega{
+  position:absolute;
+  left:-12rem;
+  opacity:1;
+  transition:all .5s ease;
+}
+#alternador h1{
+  text-align:center;
+}
+#alternador input[type=checkbox]:checked+label{
+  opacity:1;
+}
+#alternador input[type=checkbox]:checked+label~.desplega{
+  left:0rem;
+}
