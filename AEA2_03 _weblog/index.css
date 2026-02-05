@@ -137,3 +137,29 @@ input[type="checkbox"]{
 #alternador input[type=checkbox]:checked+label~.desplega{
   left:0rem;
 }
+/*resposiu*/
+@media (max-width:481px) and (max-width:1279px){
+    #alternador{
+    display:block;
+  }
+  .menuho{
+    display:none;
+  }
+}
+
+@media(min-width:1280px){
+  #alternador{
+    display:none;
+  }
+  .menuho{
+    display:block;
+  }
+}
+@media (max-width:480px){
+    #alternador{
+    display:block;
+  }
+  .menuho{
+    display:none;
+  }
+}
