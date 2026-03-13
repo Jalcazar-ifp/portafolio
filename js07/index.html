@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js07</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: ;
+    }
+    #sol{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: gold;
+        float: left;
+        margin: 1rem;
+    }
+    #lluna{
+        width: 2rem;
+        height: 2rem;
+        box-shadow: 0.5rem 0rem 0 silver;
+        border-radius: 50%;
+        float: left;
+        margin: 1rem;
+    }
+    ul{
+        display: inline-block;
+        margin: 1rem;
+        float: right;
+    }
+    li{
+        display: inline-block;
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    #txt{
+        width: 30rem;
+        margin: 3rem auto 1rem auto;
+        clear: both;
+    }
+</style>
+<body>
+    <div id="sol"></div>
+    <div id="lluna"></div>
+    <ul>
+        <li id="a">A</li>
+        <li id="aa">AA</li>
+        <li id="aaa">AAA</li>
+    </ul>
+
+    <p id="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ducimus, assumenda delectus nam iure hic laborum, animi, autem praesentium quo tempora adipisci? Dolorum necessitatibus autem cum sequi nisi excepturi perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magni magnam provident. Eos quia reiciendis temporibus debitis, architecto rem incidunt facere voluptates porro libero sequi tempora, nihil nostrum et. Incidunt? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis quae sint quibusdam unde sequi, optio, est velit recusandae consectetur ullam facilis neque quod ea doloribus odit excepturi ad voluptas expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi porro aliquam eos doloremque, dignissimos ullam excepturi ipsum quasi omnis. Obcaecati accusantium consequatur optio perspiciatis voluptatibus fugiat adipisci atque! Nemo, veritatis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus magni voluptatum quos itaque porro dicta neque dolores sint maxime. Nesciunt voluptatum magnam impedit assumenda neque delectus minima, est dolores?</p>
+</body>
+<script type="text/javascript" language="javascript">
+//events
+document.getElementById('sol').addEventListener('click',sol);
+document.getElementById('lluna').addEventListener('click',lluna);
+//funcions
+function sol(){
+    document.body.style.backgroundColor='white';
+    document.body.style.color='black';
+        document.getElementById('a').style.color='black';
+    document.getElementById('aa').style.color='black';
+    document.getElementById('aaa').style.color='black';
+}
+function lluna(){
+    document.body.style.backgroundColor='black';
+    document.body.style.color='white';
+    document.getElementById('a').style.color='white';
+    document.getElementById('aa').style.color='white';
+    document.getElementById('aaa').style.color='white';
+}
+
+////tamany text
+document.getElementById('a').addEventListener('click',reduir);
+document.getElementById('aa').addEventListener('click',mitg);
+document.getElementById('aaa').addEventListener('click',gran);
+
+
+function reduir(){
+    document.getElementById('txt').style.fontSize="0.5rem";
+}
+function mitg(){
+    document.getElementById('txt').style.fontSize="1.5rem";
+}
+function gran(){
+    document.getElementById('txt').style.fontSize="3rem";
+}
+
+</script>
+</html>
